@@ -4,11 +4,11 @@
   <remote name="ok"
            fetch="git://github.com/Octo-Kat />
  
-  <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-443" />
+  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-443" />
   <project path="external/s4utils" name="android_external_s4utils" remote="ok" revision="kk-4.4" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="ok" revision="kk-4.4" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" remote="aosp" revision="refs/tags/android-4.4.3_r1.1" />
-  <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="ok" revision="kk-4.4" />
+  <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="ok" revision="kk-443" />
+  <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="ok" revision="kk-443" />
+  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="ok" revision="kk-4.4" />
+  <project path="packages/services/Telephony" name="platform_packages_services_telephony" remote="ok" revision="kk-443" />
   </manifest>

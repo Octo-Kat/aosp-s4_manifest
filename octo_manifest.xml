@@ -2,15 +2,11 @@
 <manifest>
 
   <remote name="ok"
-           fetch="git://github.com/Octo-Kat />
-           
-  <remote name="sp"
-           fetch="git://github.com/SpawnPool />
+           fetch="git://github.com/Octo-Kat" />
 
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-443" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-443" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" remote="ok" revision="kk-4.4" />
-  <project path="external/s4utils" name="android_external_s4utils" remote="sp" revision="kk-4.4" />
   <project path="external/skia" name="android_external_skia" remote="ok" revision="kk-4.4" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" remote="ok" revision="kk-443" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" remote="ok" revision="kk-443" />

@@ -7,7 +7,10 @@
            sync-j="12" />
 
 
-  <project path="build" name="platform_build" revision="kk-4.4" />
+  <project path="build" name="platform_build" revision="kk-4.4" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" remote="ok" revision="kk-4.4" />

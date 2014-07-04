@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="cm"
+           fetch="git://github.com/CyanogenMod/"
+           sync-c="true"
+           sync-j="12" />
+
+  <project path="frameworks/opt/hardware" name="android_frameworks_opt_hardware" remote="cm" revision="cm-11.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-11.0" />
+
+</manifest>

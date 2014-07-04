@@ -14,7 +14,6 @@
   <remove-project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" remote="aosp" revision="refs/tags/android-4.4.4_r1" />
   <project path="frameworks/base" name="platform_frameworks_base" remote="ok" revision="kk-4.4" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="ok" revision="kk-4.4" />
-  <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" remote="ok" revision="kk-4.4" />
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom" remote="ok" revision="kk-4.4" />
   <project path="jet" name="jet" remote="ok" revision="kk-4.4" />
   <project path="external/skia" name="platform_external_skia" remote="ok" revision="kk-4.4" />
